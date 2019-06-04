@@ -1,0 +1,73 @@
+body{
+    background-image:url("img/back.jpg");
+}
+body,
+ul{
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background: hsl(200,100%,50%);
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.menu > li {
+  font-family: 'Orbitron', sans-serif;
+  display: inline-block; 
+  position: relative; 
+  margin: 0;
+  width: 150px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submenu {
+  font-family: 'Orbitron', sans-serif;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  background: hsl(200,100%,50%);
+  display: none;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+li:hover {
+  background: hsl(200,100%,40%);
+}
+
+li:hover ul{ 
+  display: block;
+}
+
+.submenu li {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+}
+
+.form-box {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px;
+    background: #ffffff;
+    border: 10px dotted #f2f2f2;
+    border-radius: 40px;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  input, textarea {
+    width: 100%;
+  }
